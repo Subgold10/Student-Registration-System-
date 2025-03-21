@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An efficient and modern student registration system"
+    />
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Student Registration System</h1>
+      <p>
+        An efficient and modern student registration system for adding,
+        managing, and displaying student records with a user-friendly interface
+        [Created by : Subha Goldar]
+      </p>
+    </div>
+    <main>
+      <div id="register">
+        <h2>Student Registration</h2>
+        <form id="student-form">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="number"
+            id="student-id"
+            name="student-id"
+            placeholder="Student ID"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="number"
+            id="contact"
+            name="contact"
+            placeholder="Contact No"
+            required
+          />
+          <button type="submit">Register</button>
+        </form>
+      </div>
+      <div id="records">
+        <h2>Registered Students</h2>
+        <div id="student-records">
+          <!-- Student records will appear here -->
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

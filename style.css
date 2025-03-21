@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+  width: 95%;
+}
+
+/* Registration Section */
+#register {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 600px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+button {
+  background-color: maroon;
+  border-radius: 1px;
+  border-color: #ffffff;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  background-color: #2e0909;
+  color: rgb(255, 164, 164);
+}
+/* Registered Students Section */
+#records {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 1000px;
+}
+
+#student-records {
+  width: 90%; /* Sets the width to 80% of the viewport width */
+  max-height: 500px; /* Restricts the height and adds scrollbar dynamically */
+  overflow-y: auto; /* Adds vertical scrollbar if content exceeds max height */
+  overflow-x: hidden; /* Prevents horizontal overflow */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Adds spacing between student cards */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box; /* Includes padding in width calculations */
+  justify-content: center;
+}
+
+.record {
+  width: calc(33.33% - 10px);
+  max-width: 250px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .record {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .record {
+    width: 100%;
+  }
+}
