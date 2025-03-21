@@ -86,18 +86,18 @@ button:hover {
 
 #student-records {
   width: 90%; /* Sets the width to 80% of the viewport width */
-  max-height: 500px; /* Restricts the height and adds scrollbar dynamically */
+  max-height: 500px;
   overflow-y: auto; /* Adds vertical scrollbar if content exceeds max height */
-  overflow-x: hidden; /* Prevents horizontal overflow */
+  overflow-x: hidden;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px; /* Adds spacing between student cards */
-  margin: 0 auto; /* Centers the container horizontally */
+  gap: 15px;
+  margin: 0 auto;
   padding: 10px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  box-sizing: border-box; /* Includes padding in width calculations */
+  box-sizing: border-box;
   justify-content: center;
 }
 
@@ -113,6 +113,7 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  /* Setting Screen size restrictions */
   .record {
     width: calc(50% - 10px);
   }
@@ -122,4 +123,29 @@ button:hover {
   .record {
     width: 100%;
   }
+}
+/* Footer with GitHub Link */
+#footer {
+  background: linear-gradient(to right, #174696, #4a0d8b);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 70vw;
+  min-width: 200px;
+}
+#footer a {
+  color: #ffdd57;
+  text-decoration: none;
+  font-weight: bold;
+}
+#footer a:hover {
+  color: rgb(252, 25, 25); /* Change link color to white on hover */
+  text-decoration: underline;
+}
+#footer p {
+  margin: 5px 0;
+  font-size: 0.8rem;
 }
