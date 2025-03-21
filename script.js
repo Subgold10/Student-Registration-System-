@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Form submission
+
+// Event Listener triggered when clicked
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -21,6 +23,7 @@ form.addEventListener("submit", (e) => {
   const email = document.getElementById("email").value.trim();
   const contact = document.getElementById("contact").value.trim();
 
+  // alert if some entry is not filled
   if (!name || !studentId || !email || !contact) {
     alert("Please fill in all fields.");
     return;
@@ -53,7 +56,7 @@ function displayRecords(students) {
   });
 }
 
-// Edit a record
+//Editing a record
 function editRecord(index) {
   const students = JSON.parse(localStorage.getItem("students"));
   const student = students[index];
