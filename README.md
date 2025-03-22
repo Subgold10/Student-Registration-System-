@@ -11,7 +11,7 @@
 The Student Registration System is a web application developed to simplify the process of managing student records. It provides an intuitive and responsive interface for adding, editing, and deleting student information, ensuring seamless record keeping and improved user interaction. The system uses modern web development technologies and techniques to create a visually appealing and functional experience.
 This project is ideal for demonstrating core web development principles, responsive design, and dynamic content management. Its use of persistent storage with  ensures that data is saved across browser sessions without the need for a backend database.
 
-## Purpose
+## Purpose ✨
 
 The primary goal of this project is to enable efficient student management through a straightforward and interactive interface. Whether for educational institutions or personal use, this application streamlines the process of:
 - Adding new students with essential details.
