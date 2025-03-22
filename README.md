@@ -23,7 +23,7 @@ The primary goal of this project is to enable efficient student management throu
 ## Technologies Used 🛠️
 
 - **HTML**: The main structure of the Web Page.
-- ** CSS**: For styling and responsiveness.
+- **CSS**: For styling and responsiveness.
 - **JavaScript**: For dynamic weather data fetching and user interactions.
 
 ## Live Demo ✨
