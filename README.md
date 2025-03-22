@@ -32,7 +32,7 @@ The primary goal of this project is to enable efficient student management throu
 
 ## SCREENSHOTS ✨
 
-![Weather App Screenshot](screenshots/2.png)
-
 ![Weather App Screenshot](screenshots/3.png)
+
+![Weather App Screenshot](screenshots/2.png)
 
